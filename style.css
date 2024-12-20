@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    color: #007bff;
+    font-size: 60px; 
+    font-weight: bold;
+  }
+  
+  .gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Category Section */
+  .category {
+    margin-bottom: 40px;
+  }
+  
+  .category-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .category-header h2 {
+    font-size: 44px;
+    color: #444;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Image Grid */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
